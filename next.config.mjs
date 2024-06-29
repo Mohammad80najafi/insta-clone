@@ -6,6 +6,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "avatars.githubusercontent.com",
       },
+      {
+        protocol: "http",
+        hostname: "localhost:300",
+      },
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+      },
     ],
   },
 };
