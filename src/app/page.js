@@ -1,5 +1,5 @@
-import Login from "./login/page";
+import Feed from "./components/Feed";
 
 export default function Home() {
-  return <h1 className="text-center mt-5 font-semibold">Home</h1>;
+  return <Feed />;
 }
